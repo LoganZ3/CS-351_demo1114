@@ -7,6 +7,7 @@ require_once 'auth.php';
 $error_message = '';
 $success_message = '';
 
+//import part
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (isset($_POST['register'])) {
         $username = $_POST['username'];
