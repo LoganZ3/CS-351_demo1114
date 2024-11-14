@@ -8,7 +8,7 @@ if (!is_logged_in()) {
     header('Location: login.php');
     exit;
 }
-
+//housekeeping 
 $host = 'localhost'; 
 $dbname = 'books'; 
 $user = 'logan'; 
